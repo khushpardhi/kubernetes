@@ -1,0 +1,43 @@
+Forwarding from 127.0.0.1:8081 -> 80
+Forwarding from [::1]:8081 -> 80
+Handling connection for 8081
+Handling connection for 8081
+Handling connection for 8081
+E0312 15:33:46.499681   63960 portforward.go:404] "Unhandled Error" err="error copying from local connection to remote stream: writeto tcp4 127.0.0.1:8081->127.0.0.1:56530: read tcp4 127.0.0.1:8081->127.0.0.1:56530: read: connection reset by peer"
+E0312 15:33:46.532105   63960 portforward.go:404] "Unhandled Error" err="error copying from local connection to remote stream: writeto tcp4 127.0.0.1:8081->127.0.0.1:56536: read tcp4 127.0.0.1:8081->127.0.0.1:56536: read: connection reset by peer"
+Handling connection for 8081
+Handling connection for 8081
+E0312 15:34:00.583211   63960 portforward.go:404] "Unhandled Error" err="error copying from local connection to remote stream: writeto tcp4 127.0.0.1:8081->127.0.0.1:55022: read tcp4 127.0.0.1:8081->127.0.0.1:55022: read: connection reset by peer"
+Handling connection for 8081
+E0312 15:34:00.620671   63960 portforward.go:404] "Unhandled Error" err="error copying from local connection to remote stream: writeto tcp4 127.0.0.1:8081->127.0.0.1:55028: read tcp4 127.0.0.1:8081->127.0.0.1:55028: read: connection reset by peer"
+Handling connection for 8081
+E0312 15:34:01.426200   63960 portforward.go:404] "Unhandled Error" err="error copying from local connection to remote stream: writeto tcp4 127.0.0.1:8081->127.0.0.1:55034: read tcp4 127.0.0.1:8081->127.0.0.1:55034: read: connection reset by peer"
+Handling connection for 8081
+E0312 15:34:01.446487   63960 portforward.go:404] "Unhandled Error" err="error copying from local connection to remote stream: writeto tcp4 127.0.0.1:8081->127.0.0.1:55036: read tcp4 127.0.0.1:8081->127.0.0.1:55036: read: connection reset by peer"
+Handling connection for 8081
+E0312 15:34:01.457780   63960 portforward.go:404] "Unhandled Error" err="error copying from local connection to remote stream: writeto tcp4 127.0.0.1:8081->127.0.0.1:55044: read tcp4 127.0.0.1:8081->127.0.0.1:55044: read: connection reset by peer"
+Handling connection for 8081
+Handling connection for 8081
+Handling connection for 8081
+Handling connection for 8081
+Handling connection for 8081
+Handling connection for 8081
+E0312 18:14:44.572580   63960 portforward.go:424] "Unhandled Error" err="an error occurred forwarding 8081 -> 80: error forwarding port 80 to pod f863a1ea62ae18e7830a4269f27b827feb2ad0681ed602d386d26fa88ffcfa69, uid : Error response from daemon: No such container: f863a1ea62ae18e7830a4269f27b827feb2ad0681ed602d386d26fa88ffcfa69"
+error: lost connection to pod
+Forwarding from 127.0.0.1:5153 -> 5153
+Forwarding from [::1]:5153 -> 5153
+Handling connection for 5153
+E0312 19:44:32.482865  148953 portforward.go:424] "Unhandled Error" err=<
+	an error occurred forwarding 5153 -> 5153: error forwarding port 5153 to pod 469eed68ed1ecbf2c59375ba59c5a0e2e3e7ed2aa1e41980f280f545c6167708, uid : exit status 1: 2025/03/12 14:14:32 socat[95007] E connect(5, AF=2 127.0.0.1:5153, 16): Connection refused
+ >
+error: lost connection to pod
+error: Service my-service does not have a service port 8000
+error: Service my-service does not have a service port 808008000
+Forwarding from 127.0.0.1:8000 -> 8000
+Forwarding from [::1]:8000 -> 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
